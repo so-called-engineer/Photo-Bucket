@@ -1,0 +1,1 @@
+A work-in progress web-app named photo-bucket for people who are interested in photography.Implemented using Node.js.This sample includes a login page,signup page and a home page.Used mongoDB atlas for database.Includes user authentiation and admin authentiation.
