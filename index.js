@@ -10,7 +10,7 @@ ObjectId = require('mongodb').ObjectId;
 var fs = require('fs-extra');
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
-mongoose.connect("mongodb+srv://user:<password>@wrongguy-ectz3.mongodb.net/test?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://user:passwordd@wrongguy-ectz3.mongodb.net/test?retryWrites=true&w=majority",{  //test
     useNewUrlParser: true
 },function(err){
     if(err){
